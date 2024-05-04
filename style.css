@@ -52,7 +52,7 @@
     font-size: 16px;
     font-weight: bold;
 }
-/*ehhh*/
+/**/
 .but-container {
     display: flex;
 }
@@ -68,9 +68,9 @@
 }
 
 .image-button img {
-    width: 100px; /* Ajustez la taille de l'image selon vos besoins */
+    width: 100px; 
     height: auto;
-    border-radius: 5%; /* Pour arrondir l'image */
+    border-radius: 5%; 
 }
 
 .image-button span {
@@ -91,9 +91,9 @@
 }
 
 .i-button img {
-    width: 10px; /* Ajustez la taille de l'image selon vos besoins */
+    width: 10px; 
     height: 10px;
-    border-radius: 25px; /* Pour arrondir la bordure */
+    border-radius: 25px;
 }
 /**/
 
