@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    align-items: start;
+    justify-content: space-between
+
+
+}
+
+.merci{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+
+}
+/* gros boutton*/
+.but-container {display: flex;
+    display: flex;
+}
+
+.big-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: #000000;
+    color: white;
+    height: 185px;
+}
+
+.big-button img {
+    width: 80px; 
+    height: 50PX;
+    margin-bottom: 30px;
+    border-radius: 50%;
+}
+
+.big-button span {
+    font-size: 16px;
+    font-weight: bold;
+}
+/*ehhh*/
+.but-container {
+    display: flex;
+}
+
+.image-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.image-button img {
+    width: 100px; /* Ajustez la taille de l'image selon vos besoins */
+    height: auto;
+    border-radius: 5%; /* Pour arrondir l'image */
+}
+
+.image-button span {
+    margin-top: 5px;
+    font-size: 14px;
+}
+/* ozen*/
+.butto-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.i-button {
+    border:1px ;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.i-button img {
+    width: 10px; /* Ajustez la taille de l'image selon vos besoins */
+    height: 10px;
+    border-radius: 25px; /* Pour arrondir la bordure */
+}
+/**/
+
+
+.cards_service{
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    margin-left: 20px;
+
+
+}
+
+.g{
+    position: relative;
+    left: 200px;
+}
+/*susp*/
